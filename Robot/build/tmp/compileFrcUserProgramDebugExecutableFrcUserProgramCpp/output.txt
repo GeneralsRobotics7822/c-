@@ -1,0 +1,4 @@
+See file:///Users/micahkatz/Desktop/Robot%20Code/Robot/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramDebugExecutableFrcUserProgramCpp.
+compiling Robot.cpp successful.
+
+Finished compileFrcUserProgramDebugExecutableFrcUserProgramCpp, see full log file:///Users/micahkatz/Desktop/Robot%20Code/Robot/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt.

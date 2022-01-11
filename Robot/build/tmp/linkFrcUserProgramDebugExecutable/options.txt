@@ -1,0 +1,34 @@
+-o
+"/Users/micahkatz/Desktop/Robot Code/Robot/build/exe/frcUserProgram/debug/frcUserProgram"
+"/Users/micahkatz/Desktop/Robot Code/Robot/build/objs/frcUserProgram/debug/frcUserProgramCpp/9760xtgdau9jsoxxi90ozrpww/Robot.o"
+/Users/micahkatz/.gradle/caches/transforms-3/1a9989b96a337c9005a7201a54b4bd22/transformed/wpilibNewCommands-cpp-2022.1.1-linuxathenadebug/linux/athena/shared/libwpilibNewCommandsd.so
+/Users/micahkatz/.gradle/caches/transforms-3/a589429273b6fe7aab1d11dabec3b591/transformed/wpilibc-cpp-2022.1.1-linuxathenadebug/linux/athena/shared/libwpilibcd.so
+/Users/micahkatz/.gradle/caches/transforms-3/a76ea69ff91b4d1f8f43eb50963b7729/transformed/ntcore-cpp-2022.1.1-linuxathenadebug/linux/athena/shared/libntcored.so
+/Users/micahkatz/.gradle/caches/transforms-3/c52b0ac5e4f6a5bdb0c0db55205c9221/transformed/hal-cpp-2022.1.1-linuxathenadebug/linux/athena/shared/libwpiHald.so
+/Users/micahkatz/.gradle/caches/transforms-3/2a4660272703d379f920f71f5b973f1f/transformed/wpimath-cpp-2022.1.1-linuxathenadebug/linux/athena/shared/libwpimathd.so
+/Users/micahkatz/.gradle/caches/transforms-3/d40a6e30591bf0bec967821d8cce2b75/transformed/wpiutil-cpp-2022.1.1-linuxathenadebug/linux/athena/shared/libwpiutild.so
+/Users/micahkatz/.gradle/caches/transforms-3/0a7e28dbf37057e61fe4b23918424328/transformed/netcomm-2022.2.3-linuxathenadebug/linux/athena/shared/libFRC_NetworkCommunication.so.22.0.0
+/Users/micahkatz/.gradle/caches/transforms-3/f607f71df2003ee0ec9feea0bd115044/transformed/chipobject-2022.2.3-linuxathenadebug/linux/athena/shared/libRoboRIO_FRC_ChipObject.so.22.0.0
+/Users/micahkatz/.gradle/caches/transforms-3/9c0f72bb5654d7f7b13263256b79bb76/transformed/visa-2022.2.3-linuxathenadebug/linux/athena/shared/libvisa.so.21.0.0
+/Users/micahkatz/.gradle/caches/transforms-3/8587e7b826e0214128ac903741036ec3/transformed/runtime-2022.2.3-linuxathenadebug/linux/athena/shared/libfpgalvshim.so
+/Users/micahkatz/.gradle/caches/transforms-3/8587e7b826e0214128ac903741036ec3/transformed/runtime-2022.2.3-linuxathenadebug/linux/athena/shared/libembcanshim.so
+/Users/micahkatz/.gradle/caches/transforms-3/0e6725c5c14d9f1149fe0a32c68b1d4b/transformed/cameraserver-cpp-2022.1.1-linuxathenadebug/linux/athena/shared/libcameraserverd.so
+/Users/micahkatz/.gradle/caches/transforms-3/0597b3896b59364d99c9cd60fb1d2c51/transformed/cscore-cpp-2022.1.1-linuxathenadebug/linux/athena/shared/libcscored.so
+/Users/micahkatz/.gradle/caches/transforms-3/af98d2c40499158c28d50bada41576c7/transformed/opencv-cpp-4.5.2-1-linuxathenadebug/linux/athena/shared/libopencv_photod.so.4.5
+/Users/micahkatz/.gradle/caches/transforms-3/af98d2c40499158c28d50bada41576c7/transformed/opencv-cpp-4.5.2-1-linuxathenadebug/linux/athena/shared/libopencv_videod.so.4.5
+/Users/micahkatz/.gradle/caches/transforms-3/af98d2c40499158c28d50bada41576c7/transformed/opencv-cpp-4.5.2-1-linuxathenadebug/linux/athena/shared/libopencv_features2dd.so.4.5
+/Users/micahkatz/.gradle/caches/transforms-3/af98d2c40499158c28d50bada41576c7/transformed/opencv-cpp-4.5.2-1-linuxathenadebug/linux/athena/shared/libopencv_objdetectd.so.4.5
+/Users/micahkatz/.gradle/caches/transforms-3/af98d2c40499158c28d50bada41576c7/transformed/opencv-cpp-4.5.2-1-linuxathenadebug/linux/athena/shared/libopencv_imgcodecsd.so.4.5
+/Users/micahkatz/.gradle/caches/transforms-3/af98d2c40499158c28d50bada41576c7/transformed/opencv-cpp-4.5.2-1-linuxathenadebug/linux/athena/shared/libopencv_flannd.so.4.5
+/Users/micahkatz/.gradle/caches/transforms-3/af98d2c40499158c28d50bada41576c7/transformed/opencv-cpp-4.5.2-1-linuxathenadebug/linux/athena/shared/libopencv_videoiod.so.4.5
+/Users/micahkatz/.gradle/caches/transforms-3/af98d2c40499158c28d50bada41576c7/transformed/opencv-cpp-4.5.2-1-linuxathenadebug/linux/athena/shared/libopencv_stitchingd.so.4.5
+/Users/micahkatz/.gradle/caches/transforms-3/af98d2c40499158c28d50bada41576c7/transformed/opencv-cpp-4.5.2-1-linuxathenadebug/linux/athena/shared/libopencv_mld.so.4.5
+/Users/micahkatz/.gradle/caches/transforms-3/af98d2c40499158c28d50bada41576c7/transformed/opencv-cpp-4.5.2-1-linuxathenadebug/linux/athena/shared/libopencv_calib3dd.so.4.5
+/Users/micahkatz/.gradle/caches/transforms-3/af98d2c40499158c28d50bada41576c7/transformed/opencv-cpp-4.5.2-1-linuxathenadebug/linux/athena/shared/libopencv_highguid.so.4.5
+/Users/micahkatz/.gradle/caches/transforms-3/af98d2c40499158c28d50bada41576c7/transformed/opencv-cpp-4.5.2-1-linuxathenadebug/linux/athena/shared/libopencv_cored.so.4.5
+/Users/micahkatz/.gradle/caches/transforms-3/af98d2c40499158c28d50bada41576c7/transformed/opencv-cpp-4.5.2-1-linuxathenadebug/linux/athena/shared/libopencv_gapid.so.4.5
+/Users/micahkatz/.gradle/caches/transforms-3/af98d2c40499158c28d50bada41576c7/transformed/opencv-cpp-4.5.2-1-linuxathenadebug/linux/athena/shared/libopencv_imgprocd.so.4.5
+-rdynamic
+-pthread
+-ldl
+-latomic

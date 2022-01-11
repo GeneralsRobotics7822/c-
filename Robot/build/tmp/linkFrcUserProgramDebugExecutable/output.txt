@@ -1,0 +1,4 @@
+See file:///Users/micahkatz/Desktop/Robot%20Code/Robot/build/tmp/linkFrcUserProgramDebugExecutable/output.txt for all output for linkFrcUserProgramDebugExecutable.
+linking frcUserProgram successful.
+
+Finished linkFrcUserProgramDebugExecutable, see full log file:///Users/micahkatz/Desktop/Robot%20Code/Robot/build/tmp/linkFrcUserProgramDebugExecutable/output.txt.

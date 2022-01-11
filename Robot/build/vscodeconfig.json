@@ -1,0 +1,381 @@
+[
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "debug",
+    "cppPath": "/Users/micahkatz/wpilib/2022/roborio/bin/arm-frc2022-linux-gnueabi-g++",
+    "cPath": "/Users/micahkatz/wpilib/2022/roborio/bin/arm-frc2022-linux-gnueabi-gcc",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "/Users/micahkatz/.gradle/caches/transforms-3/e4e6809f05c7f4a9f70d7c4e9be60eba/transformed/wpilibNewCommands-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/fa02b9dba6a5d3cf041c2ed7354e075d/transformed/wpilibc-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/d8be467434e6a7db7c9659288c7a43e9/transformed/ntcore-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/439f27e0e2a9d1cf298805a69f9143e0/transformed/hal-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/daf11dc8448d6f86742697d2f09c2a34/transformed/wpimath-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/1052c67f55f557bea25b083a166473ed/transformed/wpiutil-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/b96d975d926258214e7c14c7cd1bb768/transformed/netcomm-2022.2.3-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/7e9ebcee7df964042668663fc72dd3c1/transformed/chipobject-2022.2.3-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/39c9a6008848a092d32fda9b68774691/transformed/visa-2022.2.3-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/16d28324970b30383d5af8de817554fc/transformed/cameraserver-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/d65a312f1a1f47ba803f9a17854d6e1c/transformed/cscore-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/7fa24e68ce574cff37a2e5ab6bf02201/transformed/opencv-cpp-4.5.2-1-headers/",
+      "/Users/micahkatz/Desktop/Robot Code/Robot/src/main/include/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/63b071d257af371c19f2c452e8dbf632/transformed/wpilibNewCommands-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/f76494b41bc4964b402d631647365b8a/transformed/wpilibc-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/bec480548746a807fbd3bca45db69f7c/transformed/ntcore-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/894d39c7e34d59b85515ed92e5f69aa6/transformed/hal-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/b3f2ec16c06b9b493f54025b0eea7512/transformed/wpimath-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/feeff026a0f68b9e1c57ef8e09c1dc4c/transformed/wpiutil-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/1e2eb6b40c04a83202591d7d6b6de39e/transformed/cameraserver-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/2774926534efe804ff077c35d1847cb6/transformed/cscore-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/298be76a63d560dbc53c77a2a6024fba/transformed/opencv-cpp-4.5.2-1-sources/"
+    ],
+    "allLibSources": [
+      "/Users/micahkatz/.gradle/caches/transforms-3/63b071d257af371c19f2c452e8dbf632/transformed/wpilibNewCommands-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/f76494b41bc4964b402d631647365b8a/transformed/wpilibc-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/bec480548746a807fbd3bca45db69f7c/transformed/ntcore-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/894d39c7e34d59b85515ed92e5f69aa6/transformed/hal-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/b3f2ec16c06b9b493f54025b0eea7512/transformed/wpimath-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/feeff026a0f68b9e1c57ef8e09c1dc4c/transformed/wpiutil-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/1e2eb6b40c04a83202591d7d6b6de39e/transformed/cameraserver-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/2774926534efe804ff077c35d1847cb6/transformed/cscore-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/298be76a63d560dbc53c77a2a6024fba/transformed/opencv-cpp-4.5.2-1-sources/"
+    ],
+    "allLibHeaders": [
+      "/Users/micahkatz/.gradle/caches/transforms-3/e4e6809f05c7f4a9f70d7c4e9be60eba/transformed/wpilibNewCommands-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/fa02b9dba6a5d3cf041c2ed7354e075d/transformed/wpilibc-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/d8be467434e6a7db7c9659288c7a43e9/transformed/ntcore-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/439f27e0e2a9d1cf298805a69f9143e0/transformed/hal-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/daf11dc8448d6f86742697d2f09c2a34/transformed/wpimath-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/1052c67f55f557bea25b083a166473ed/transformed/wpiutil-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/b96d975d926258214e7c14c7cd1bb768/transformed/netcomm-2022.2.3-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/7e9ebcee7df964042668663fc72dd3c1/transformed/chipobject-2022.2.3-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/39c9a6008848a092d32fda9b68774691/transformed/visa-2022.2.3-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/16d28324970b30383d5af8de817554fc/transformed/cameraserver-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/d65a312f1a1f47ba803f9a17854d6e1c/transformed/cscore-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/7fa24e68ce574cff37a2e5ab6bf02201/transformed/opencv-cpp-4.5.2-1-headers/",
+      "/Users/micahkatz/Desktop/Robot Code/Robot/src/main/include/"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/micahkatz/Desktop/Robot Code/Robot/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/micahkatz/Desktop/Robot Code/Robot/src/main/include/"
+              ],
+              "includes": [],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-Og",
+              "-g"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "/Users/micahkatz/.gradle/caches/transforms-3/e4e6809f05c7f4a9f70d7c4e9be60eba/transformed/wpilibNewCommands-cpp-2022.1.1-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/fa02b9dba6a5d3cf041c2ed7354e075d/transformed/wpilibc-cpp-2022.1.1-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/d8be467434e6a7db7c9659288c7a43e9/transformed/ntcore-cpp-2022.1.1-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/439f27e0e2a9d1cf298805a69f9143e0/transformed/hal-cpp-2022.1.1-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/daf11dc8448d6f86742697d2f09c2a34/transformed/wpimath-cpp-2022.1.1-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/1052c67f55f557bea25b083a166473ed/transformed/wpiutil-cpp-2022.1.1-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/b96d975d926258214e7c14c7cd1bb768/transformed/netcomm-2022.2.3-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/7e9ebcee7df964042668663fc72dd3c1/transformed/chipobject-2022.2.3-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/39c9a6008848a092d32fda9b68774691/transformed/visa-2022.2.3-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/16d28324970b30383d5af8de817554fc/transformed/cameraserver-cpp-2022.1.1-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/d65a312f1a1f47ba803f9a17854d6e1c/transformed/cscore-cpp-2022.1.1-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/7fa24e68ce574cff37a2e5ab6bf02201/transformed/opencv-cpp-4.5.2-1-headers/",
+          "/Users/micahkatz/Desktop/Robot Code/Robot/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/micahkatz/Desktop/Robot Code/Robot/src/main/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og",
+          "-g"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/micahkatz/Desktop/Robot Code/Robot/src/main/include/"
+          ],
+          "includes": [],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og",
+          "-g"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  },
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "release",
+    "cppPath": "/Users/micahkatz/wpilib/2022/roborio/bin/arm-frc2022-linux-gnueabi-g++",
+    "cPath": "/Users/micahkatz/wpilib/2022/roborio/bin/arm-frc2022-linux-gnueabi-gcc",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "/Users/micahkatz/.gradle/caches/transforms-3/e4e6809f05c7f4a9f70d7c4e9be60eba/transformed/wpilibNewCommands-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/fa02b9dba6a5d3cf041c2ed7354e075d/transformed/wpilibc-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/d8be467434e6a7db7c9659288c7a43e9/transformed/ntcore-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/439f27e0e2a9d1cf298805a69f9143e0/transformed/hal-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/daf11dc8448d6f86742697d2f09c2a34/transformed/wpimath-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/1052c67f55f557bea25b083a166473ed/transformed/wpiutil-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/b96d975d926258214e7c14c7cd1bb768/transformed/netcomm-2022.2.3-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/7e9ebcee7df964042668663fc72dd3c1/transformed/chipobject-2022.2.3-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/39c9a6008848a092d32fda9b68774691/transformed/visa-2022.2.3-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/16d28324970b30383d5af8de817554fc/transformed/cameraserver-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/d65a312f1a1f47ba803f9a17854d6e1c/transformed/cscore-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/7fa24e68ce574cff37a2e5ab6bf02201/transformed/opencv-cpp-4.5.2-1-headers/",
+      "/Users/micahkatz/Desktop/Robot Code/Robot/src/main/include/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/63b071d257af371c19f2c452e8dbf632/transformed/wpilibNewCommands-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/f76494b41bc4964b402d631647365b8a/transformed/wpilibc-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/bec480548746a807fbd3bca45db69f7c/transformed/ntcore-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/894d39c7e34d59b85515ed92e5f69aa6/transformed/hal-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/b3f2ec16c06b9b493f54025b0eea7512/transformed/wpimath-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/feeff026a0f68b9e1c57ef8e09c1dc4c/transformed/wpiutil-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/1e2eb6b40c04a83202591d7d6b6de39e/transformed/cameraserver-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/2774926534efe804ff077c35d1847cb6/transformed/cscore-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/298be76a63d560dbc53c77a2a6024fba/transformed/opencv-cpp-4.5.2-1-sources/"
+    ],
+    "allLibSources": [
+      "/Users/micahkatz/.gradle/caches/transforms-3/63b071d257af371c19f2c452e8dbf632/transformed/wpilibNewCommands-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/f76494b41bc4964b402d631647365b8a/transformed/wpilibc-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/bec480548746a807fbd3bca45db69f7c/transformed/ntcore-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/894d39c7e34d59b85515ed92e5f69aa6/transformed/hal-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/b3f2ec16c06b9b493f54025b0eea7512/transformed/wpimath-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/feeff026a0f68b9e1c57ef8e09c1dc4c/transformed/wpiutil-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/1e2eb6b40c04a83202591d7d6b6de39e/transformed/cameraserver-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/2774926534efe804ff077c35d1847cb6/transformed/cscore-cpp-2022.1.1-sources/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/298be76a63d560dbc53c77a2a6024fba/transformed/opencv-cpp-4.5.2-1-sources/"
+    ],
+    "allLibHeaders": [
+      "/Users/micahkatz/.gradle/caches/transforms-3/e4e6809f05c7f4a9f70d7c4e9be60eba/transformed/wpilibNewCommands-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/fa02b9dba6a5d3cf041c2ed7354e075d/transformed/wpilibc-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/d8be467434e6a7db7c9659288c7a43e9/transformed/ntcore-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/439f27e0e2a9d1cf298805a69f9143e0/transformed/hal-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/daf11dc8448d6f86742697d2f09c2a34/transformed/wpimath-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/1052c67f55f557bea25b083a166473ed/transformed/wpiutil-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/b96d975d926258214e7c14c7cd1bb768/transformed/netcomm-2022.2.3-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/7e9ebcee7df964042668663fc72dd3c1/transformed/chipobject-2022.2.3-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/39c9a6008848a092d32fda9b68774691/transformed/visa-2022.2.3-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/16d28324970b30383d5af8de817554fc/transformed/cameraserver-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/d65a312f1a1f47ba803f9a17854d6e1c/transformed/cscore-cpp-2022.1.1-headers/",
+      "/Users/micahkatz/.gradle/caches/transforms-3/7fa24e68ce574cff37a2e5ab6bf02201/transformed/opencv-cpp-4.5.2-1-headers/",
+      "/Users/micahkatz/Desktop/Robot Code/Robot/src/main/include/"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/micahkatz/Desktop/Robot Code/Robot/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/micahkatz/Desktop/Robot Code/Robot/src/main/include/"
+              ],
+              "includes": [],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-O2"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "/Users/micahkatz/.gradle/caches/transforms-3/e4e6809f05c7f4a9f70d7c4e9be60eba/transformed/wpilibNewCommands-cpp-2022.1.1-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/fa02b9dba6a5d3cf041c2ed7354e075d/transformed/wpilibc-cpp-2022.1.1-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/d8be467434e6a7db7c9659288c7a43e9/transformed/ntcore-cpp-2022.1.1-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/439f27e0e2a9d1cf298805a69f9143e0/transformed/hal-cpp-2022.1.1-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/daf11dc8448d6f86742697d2f09c2a34/transformed/wpimath-cpp-2022.1.1-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/1052c67f55f557bea25b083a166473ed/transformed/wpiutil-cpp-2022.1.1-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/b96d975d926258214e7c14c7cd1bb768/transformed/netcomm-2022.2.3-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/7e9ebcee7df964042668663fc72dd3c1/transformed/chipobject-2022.2.3-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/39c9a6008848a092d32fda9b68774691/transformed/visa-2022.2.3-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/16d28324970b30383d5af8de817554fc/transformed/cameraserver-cpp-2022.1.1-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/d65a312f1a1f47ba803f9a17854d6e1c/transformed/cscore-cpp-2022.1.1-headers/",
+          "/Users/micahkatz/.gradle/caches/transforms-3/7fa24e68ce574cff37a2e5ab6bf02201/transformed/opencv-cpp-4.5.2-1-headers/",
+          "/Users/micahkatz/Desktop/Robot Code/Robot/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/micahkatz/Desktop/Robot Code/Robot/src/main/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/micahkatz/Desktop/Robot Code/Robot/src/main/include/"
+          ],
+          "includes": [],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  }
+]
