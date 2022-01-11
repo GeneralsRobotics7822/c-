@@ -24,7 +24,7 @@ class Robot : public frc::TimedRobot {
   }
   void AutonomousPeriodic() override{
     if(timer.Get() < 2_s){
-      robotDrive.ArcadeDrive(0.5,0);
+      robotDrive.ArcadeDrive(-0.5,0);
     }
     else{
       robotDrive.StopMotor();
@@ -34,7 +34,7 @@ class Robot : public frc::TimedRobot {
   void TeleopInit() override{}
   void TeleopPeriodic() override{
     if(going){
-      robotDrive.ArcadeDrive(-xboxController.GetX(), xboxController.GetY());
+      robotDrive.ArcadeDrive(-xboxController.GetLeftY(), xboxController.GetLeftX());
     }
     if(xboxController.GetBButtonPressed()){
       robotDrive.StopMotor();
