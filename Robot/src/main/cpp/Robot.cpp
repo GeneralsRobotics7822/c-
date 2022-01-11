@@ -14,33 +14,33 @@ class Robot : public frc::TimedRobot {
   bool going = true;
 
   void RobotInit() override{
-    m_right.SetInverted(true);
+    rightMotor.SetInverted(true);
   }
   void RobotPeriodic() override{}
 
   void AutonomousInit() override{
-    m_timer.Reset();
-    m_timer.Start();
+    timer.Reset();
+    timer.Start();
   }
   void AutonomousPeriodic() override{
-    if(m_timer.Get() < 2_s){
-      m_robotDrive.ArcadeDrive(0.5,0);
+    if(timer.Get() < 2_s){
+      robotDrive.ArcadeDrive(0.5,0);
     }
     else{
-      m_robotDrive.StopMotor();
+      robotDrive.StopMotor();
     }
   }
 
   void TeleopInit() override{}
   void TeleopPeriodic() override{
     if(going){
-      m_robotDrive.ArcadeDrive(-m_stick.GetRightX(), m_stick.GetRightY());
+      robotDrive.ArcadeDrive(-xboxController.GetX(), xboxController.GetY());
     }
-    if(m_stick.GetBButtonPressed()){
-      m_robotDrive.StopMotor();
+    if(xboxController.GetBButtonPressed()){
+      robotDrive.StopMotor();
       going = false;
     }
-    if(m_stick.GetAButtonPressed()){
+    if(xboxController.GetAButtonPressed()){
       going = true;
     }
   }
@@ -53,12 +53,12 @@ class Robot : public frc::TimedRobot {
 
   private:
     // Robot drive system
-    frc::PWMSparkMax m_left{0};
-    frc::PWMSparkMax m_right{1};
-    frc::DifferentialDrive m_robotDrive{m_left, m_right};
+    frc::PWMSparkMax leftMotor{0};
+    frc::PWMSparkMax rightMotor{1};
+    frc::DifferentialDrive robotDrive{leftMotor, rightMotor};
 
-    frc::XboxController m_stick{0};
-    frc::Timer m_timer;
+    frc::XboxController xboxController{0};
+    frc::Timer timer;
 
 };
 
