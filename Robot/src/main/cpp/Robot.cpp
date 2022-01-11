@@ -6,7 +6,7 @@
 #include <frc/TimedRobot.h>
 #include <frc/Timer.h>
 #include <frc/drive/DifferentialDrive.h>
-#include <frc/motorcontrol/PWMSparkMax.h>
+#include <frc/PWMSparkMax.h>
 
 class Robot : public frc::TimedRobot {
  public:
@@ -34,7 +34,7 @@ class Robot : public frc::TimedRobot {
   void TeleopInit() override{}
   void TeleopPeriodic() override{
     if(going){
-      robotDrive.ArcadeDrive(-xboxController.GetLeftY(), xboxController.GetLeftX());
+      robotDrive.ArcadeDrive(-xboxController.GetY(frc::GenericHID::JoystickHand::kLeftHand), xboxController.GetX(frc::GenericHID::JoystickHand::kLeftHand));
     }
     if(xboxController.GetBButtonPressed()){
       robotDrive.StopMotor();
